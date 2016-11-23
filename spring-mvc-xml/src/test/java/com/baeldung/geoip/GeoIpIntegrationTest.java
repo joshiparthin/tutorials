@@ -15,7 +15,7 @@ public class GeoIpIntegrationTest {
     
     @Test
     public void givenIP_whenFetchingCity_thenReturnsCityData() throws IOException, GeoIp2Exception {
-        File database = new File("path-to-your-mmdb");
+        File database = new File("your-db-location");
         DatabaseReader dbReader = new DatabaseReader.Builder(database).build();
         
         InetAddress ipAddress = InetAddress.getByName("your-ip-address");

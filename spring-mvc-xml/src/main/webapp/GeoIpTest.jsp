@@ -77,7 +77,6 @@
 <div id="status"></div>
 
 <div id="map" style="height: 500px; width:100%; position:absolute"></div>
- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"
-    async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY" async defer></script>
 </body>
 </html>
