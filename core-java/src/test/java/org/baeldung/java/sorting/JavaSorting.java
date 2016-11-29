@@ -30,7 +30,6 @@ public class JavaSorting {
 //    private Integer [] sortedIntegers;
 //    private List<Integer> integersList;
 //    private List<Integer> sortedIntegersList;
-    
     private Employee[] employees;
     private Employee[] employeesSorted;
     private Employee[] employeesSortedByAge;
